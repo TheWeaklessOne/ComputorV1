@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2362739725C2B79100B2CBAD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2362739625C2B79100B2CBAD /* main.swift */; };
+		2362739F25C2C23700B2CBAD /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2362739E25C2C23700B2CBAD /* Parser.swift */; };
+		236273A325C2F76F00B2CBAD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236273A225C2F76F00B2CBAD /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		2362739325C2B79100B2CBAD /* ComputorV1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ComputorV1; sourceTree = BUILT_PRODUCTS_DIR; };
 		2362739625C2B79100B2CBAD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2362739E25C2C23700B2CBAD /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		236273A225C2F76F00B2CBAD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		236273A625C34AE600B2CBAD /* libedit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libedit.tbd; path = usr/lib/libedit.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +48,7 @@
 			children = (
 				2362739525C2B79100B2CBAD /* ComputorV1 */,
 				2362739425C2B79100B2CBAD /* Products */,
+				236273A525C34AE600B2CBAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +64,18 @@
 			isa = PBXGroup;
 			children = (
 				2362739625C2B79100B2CBAD /* main.swift */,
+				2362739E25C2C23700B2CBAD /* Parser.swift */,
+				236273A225C2F76F00B2CBAD /* Extensions.swift */,
 			);
 			path = ComputorV1;
+			sourceTree = "<group>";
+		};
+		236273A525C34AE600B2CBAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				236273A625C34AE600B2CBAD /* libedit.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2362739F25C2C23700B2CBAD /* Parser.swift in Sources */,
+				236273A325C2F76F00B2CBAD /* Extensions.swift in Sources */,
 				2362739725C2B79100B2CBAD /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
